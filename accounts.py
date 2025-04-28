@@ -2,7 +2,6 @@
 # program that reads a 10 character account number and outputs showing only the last 4
 # Author Daniel Finnerty
 
-'''
 account = input("Please enter a 10 digit account number: ")
 x = len(account)
 
@@ -17,3 +16,4 @@ account = input("Please enter your account number: ")
 x = len(account)
 
 print(((x - 4) * "X") + account[(x - 4):])
+'''
